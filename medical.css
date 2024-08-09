@@ -1,0 +1,670 @@
+*{
+    font-family: Montserrat;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+header{
+    height: 114px;
+    background-color:#26335D;
+}
+
+
+.container{
+    width: 1200px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#26335D;
+}
+.navbar{ 
+    display: flex;
+    margin: 30px auto;
+    width: 100%;
+    gap: 10px;
+}
+
+.leftnav{
+    justify-content: center;
+    width: 35%;
+    display: flex;
+    align-items: center;
+}
+.leftnav h2{
+    
+    font-size:24px;
+    line-height:32px;
+    color: #FFFFFF;
+}
+
+.rightnav{
+    justify-content: space-around;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.text ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.text ul li a:hover{
+    text-underline-position: above;
+    color: #1BA0AB;
+}
+.text ul li{
+    list-style-type: none;
+    font-size: 14px;
+}
+.text ul{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 24px;
+    align-items: center;
+}
+.text{
+    width: 55%;
+}
+.button{
+    display: flex;
+    gap: 10px;
+}
+.login{
+    background-color: transparent;
+    border: none;
+    color: #FFFFFF;
+
+    font-size: 14px;
+    line-height: 24px;
+}
+.joinus{
+    background-color: #1BA0AB;
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 15px 25px 15px 25px;
+    gap: 15px;
+    border-radius: 7px ;
+    opacity: 0px;
+    display: flex;
+    border: none;
+    align-items: center;
+}
+.joinus span{
+    font-size: 15px;
+    
+
+}
+
+
+/* navigation bar finish */
+
+
+.first_page{
+    
+    background-color:#26335D;
+}
+.first_page .container{
+    height: 683px;
+}
+
+.left{
+    width: 100%;
+    
+}.box{
+    width:573px;
+    height:356px;
+    gap: 30px;
+    opacity: 0px;
+    display: grid;
+
+}
+.box h5{
+    color: #1BA0AB;
+}
+.box h1{
+    color: #FFFFFF;
+    font-size: 58px;
+    
+}
+.box h4{
+    color: #FFFFFF;
+    font-weight: 600;
+}
+.btn{
+    display: flex;
+    gap: 12px;
+    
+}
+.btn .fst_btn{
+    border: 2px solid #1BA0AB;
+    background-color: #26335D;
+    height: 50px;
+    color: #1BA0AB;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 15px 25px 15px 25px;
+    border-radius: 7px ;
+    opacity: 0px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    cursor: pointer;
+}
+.btn .snd_btn{
+    border: 2px solid #1BA0AB;
+    
+    height: 50px;
+    background-color: #26335D;
+    color: #1BA0AB;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 15px 25px 15px 25px;
+    border-radius: 7px ;
+    opacity: 0px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    cursor: pointer;
+    
+}
+.btn .snd_btn:hover, .btn .fst_btn:hover {
+    background-color: #1BA0AB;
+    color: white;
+    
+  }
+
+
+.right{
+    width: 100%;
+    display: flex;
+}.right .small_pic{
+    width: 271px;
+    height: 249px;
+    border-radius: 10px 10px 10px 10px;
+    border: 4px solid #FFFFFF;
+
+    position: absolute;
+    margin: 288px 0px 0px 58px;
+
+}.right .large_pic{
+    width: 425px;
+    height: 506px;
+    border-radius: 10px 10px 10px 10px;
+    margin: -30px -639px 0px 154px;
+}
+
+
+/* first page finish */
+
+
+.second_page{
+    background-color: #FFFFFF;
+
+}
+.second_page .container{
+    height: 683px;
+    background-color: #FFFFFF;
+}.left_two{
+    width: 100%;
+    height: 100%;
+}
+.s_p_square{
+    Width:116px;
+    Height:138px;
+    background-color: #B6D7FF;
+    margin:  60px 0px 0px 430px;
+}
+.s_p_circle{
+    width: 59px;
+    height: 59px;
+    margin-top: 355px;
+    margin-left: 58.5px;
+    background-color: #FEB896;
+    border-radius: 50%;
+    
+
+
+}
+
+.left_two .image{
+    width: 425px;
+    height: 506px;
+    margin: 90px 0px 0px 90px;
+    border-radius: 50px ;
+    position: absolute;
+
+}
+.right_two{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right_two .setbox{
+    width:  381px;
+    height:  246px;
+    gap: 35px;
+    opacity: 0px;
+    display: grid;
+    
+
+}.setbox .line{
+    width: 94px;
+    height: 7px;
+    background-color: #F69B25;
+    ;
+}
+.setbox h2{
+    font-size: 40px;
+    color: #252B42;
+}
+.setbox p{
+    font-size: 14px;
+    color: #737373;
+}
+.setbox a{
+    font-size: 14px;
+    color: #1BA0AB;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+
+/* second page finish */
+
+
+
+
+.brand_page{
+    background-color: #FFFFFF;
+}
+.brand_page .container{
+    Height:175px;
+    background-color: #FFFFFF;
+}
+.bnd_pg_box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.fa-brands {
+    font-size: 75px;
+    color: #737373;
+}
+
+
+
+/* brands logo finish */
+
+
+
+.third_page{
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 100%;
+    
+    gap: 80px;
+    opacity: 0px;
+
+
+}
+.third_page .container{
+    
+    background-color: #FFFFFF;
+    
+}
+.trd_pg_box{
+    height: 918px;
+    background-color: #FFFFFF;
+    
+}
+
+.trd_pg_content{
+    width: 100%;
+    height: 134px;
+    display: grid;
+    justify-content: left;
+    margin-top: 72px;
+}
+.trd_pg_content h6{
+    font-size: 14px;
+    color:  #1BA0AB;
+}.trd_pg_content h2{
+    font-size: 40px;
+    color: #252B42;
+}.trd_pg_content p{
+    font-size: 14px;
+    color: #737373;
+    font-weight: 600;
+}
+
+.cards{
+    width:100%;
+    height:622px;
+    gap: 30px;
+    opacity: 0px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+.health_queries{
+    width: 328px;
+    background-color: #FFFFFF;
+    transition: 0.4s ease-in-out ;
+
+
+}.health_queries img{
+    width: 328px;
+    transition: 0.4s ease-in-out ;
+}
+.book_now{
+    width: 328px;
+    background-color: #FFFFFF;
+    transition: 0.4s ease-in-out ;
+    width: 328px;
+}
+.book_now img{
+    width: 328px;
+    transition: 0.4s ease-in-out ;
+}
+.appoinment{
+    width: 328px;
+    background-color: #FFFFFF;
+    
+    transition: 0.4s ease-in-out ;
+}.appoinment img{
+    width: 328px;
+    transition: 0.4s ease-in-out ;
+}
+.sale{
+    position: absolute;
+    background-color: #E74040;
+    color: #ffff;
+    font-size: 14px;
+    padding: 3px 8px;
+    margin: 22px 22px;
+    border-radius: 3px;
+}
+.rate{
+    width: 100px;
+    position: absolute;
+    margin: 243px 0px 0px 115px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.rate span{
+    background-color: #FFFFFF;
+    border-radius: 0%;
+    padding: 0px;
+    font-size: 0px;
+    transition: 0.4s ease-in-out;
+
+}
+
+
+                /* CARDS  */
+                
+
+.card_heading{display: flex; justify-content: space-between; align-items: center; }
+.cards a{color: #1BA0AB;font-size: 14px;}
+.star{background-color: #26335D; width:50px; height:26px; color: #FFFFFF; 
+        display: flex; align-items: center; font-size: 12px; border-radius:20px;Padding:5px;Gap:5px}
+.star span{color: #FFCE31; font-size: 18px;}
+
+
+.cards h5{font-size: 16px; }
+
+.cards p{font-size: 14px; color: #737373;font-weight: 600;}
+
+
+.sales{display: flex;  align-items: center;gap: 5px; }
+.sales h6{font-size: 14px; color: #737373;}
+.sales span{ color: #737373;}
+
+.prices{display: flex;  align-items: center;gap: 8px; }
+#fst_price{color: #BDBDBD;}
+#snd_price{color: #2DC071;}
+
+
+.cards button{display: flex; justify-content: center; align-items: center;gap: 3px; color: #1BA0AB; 
+    border: 1px solid #1BA0AB; border-radius: 37px; background-color: transparent; 
+    width: 141px;height: 44px;}
+
+.card{display: grid; padding: 26px; row-gap: 16px;}
+
+
+
+/* third page finish */
+
+
+
+.fourth_page{background-color: #ffffff;width: 100%;height: 1249px;}
+.fourth_page .container{background-color: #ffffff;}
+
+.fourth_top{margin-top: 49px;margin-left: 35px; height: 134px;display: flex;flex-direction: column; justify-content:space-around;}
+
+.fourth_bottom{width: 100%;display: flex; justify-content: space-around;margin-top: 80px;margin-bottom: 49px;}
+.pricing_card{background-color: rgb(255, 255, 255); width:323px;height: 908px; text-align: center;
+            box-shadow:0px 0px 9px 0px #e3e1e1  ;}
+
+.pricing_card .fa-heart     {color: #FFFFFF;font-size: 36px; border-radius: 50%;background-color: #F69B25;
+                                 width: 96px;height: 96px;display: flex; flex-direction: column; justify-content: center;}
+.pricing_card h3    {font-size: 24px;}
+.pricing_card h6    {font-size: 14px; color: #737373;}
+.pricing_card h2    {font-size: 40px;color: #1BA0AB;}
+.pricing_card p     {font-size: 14px;font-weight: 600; color: #737373;}
+.pricing_card button    {background-color: #1BA0AB;color: #FFFFFF; Padding:  15px, 40px, 15px, 40px;
+    border-radius: 5px;border: none; padding :16px; width: 244px;}
+
+.pricing_card .fa-circle-check{font-size: 30px;color: #2DC071;}
+
+.pricing_card .tick {display: flex;gap: 7px; justify-content: flex-start; align-items: center;}
+
+#tick{color: #BDBDBD; }
+.tick h6{color: #000 ; text-align: left;}
+
+
+/* fourth page finish */
+
+
+
+.fifth_page
+{
+    background-color: #26335D;
+}
+.fifth_box
+{
+    width: 100%; height: 851.01px;
+    display: flex; flex-direction: column; justify-content: center; row-gap: 80px;
+}
+.fifth_top
+{
+    Width:100%;Height:134px;
+    display: flex;flex-direction: column;justify-content: space-around; margin-left: 35px;
+}
+.fifth_bottom
+{
+    width: 100%; height: 317.01px; display: flex;justify-content: space-around;
+}
+.fif_card
+{
+    width:328px;height: 317.01px; background-color: #FFFFFF;
+}
+.fa-star
+{
+    color: #F3CD03;
+}
+
+
+/* fifth page finish */
+
+
+.sixth_box
+{
+    height: 592px;width: 100%;
+    display: flex; flex-direction: column; justify-content: center; row-gap: 80px;
+}
+.sixth_top
+{
+    Width:100%;Height:134px;
+    display: flex;flex-direction: column;justify-content: space-around; align-items: center; text-align: center;
+}
+.sixth_bottom
+{
+    display: flex; justify-content: center;
+}
+
+/* sixth page finish */
+
+
+.foot_box
+{
+    display: flex;
+    
+}
+
+.foot_box ul li 
+{
+    list-style-type: none;
+    margin-bottom: 10px;
+    color: #737373;
+    
+}
+.foot_box ul li a{
+    font-size: 14px;
+    color: #737373;
+    
+    
+}
+.foot_box h5{
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.foot_box span{
+    color: #1BA0AB;
+}
+
+/* footer finish */
+
+
+.right_bottom_bar i
+{
+    font-size: 15px;
+    color: #1BA0AB;
+    margin: 5px;
+}
+
+
+/* full page finish */
+
+.rate span:hover
+{
+    background-color: #000;
+    color: #FFFFFF;
+    rotate: inherit;
+}
+
+.cards button:hover{
+    background-color: #1BA0AB;
+    color: #fff;
+}
+
+.health_queries:hover 
+{
+    
+    background-color: #effeff;
+    transform: scale(1.05);
+    transition: 0.4s ease-in-out ;
+
+    
+    
+}.health_queries:hover .rate span
+{
+    transform: scale(1.05);
+    transition: 0.4s ease-in-out;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 50%; 
+}
+.book_now:hover
+{
+    
+    background-color: #effeff;
+    transform: scale(1.05);
+    transition: 0.4s ease-in-out ;
+    
+}.book_now:hover .rate span
+{
+    transform: scale(1.05);
+    transition: 0.4s ease-in-out;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 50%; 
+}
+.appoinment:hover
+{
+    
+    background-color: #effeff;
+    transform: scale(1.05);
+    transition: 0.4s ease-in-out ;
+    
+}.appoinment:hover .rate span
+{
+    transform: scale(1.05);
+    transition: 0.4s ease-in-out;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 50%; 
+}
+
+
+
+.pricing_card:hover 
+{
+    transform: scale(1.05);
+    transition: 0.4s ease-in-out;
+    box-shadow:0px 0px 50px 0px #000000  ;
+    display: block;
+
+    background-color: #26335D;
+}
+.pricing_card:hover h3
+{
+    color: #fff;
+}.pricing_card:hover  h6
+{
+    color: #fff;
+}.pricing_card:hover p
+{
+    color: #fff;
+}.pricing_card:hover  button
+{
+    color: #fff;
+}
+
+.pricing_card .new_icon{
+    scale: 0 !important;
+    transition: 0.2s ease-in-out !important;
+}
+.pricing_card:hover .new_icon
+{
+   
+    scale: 1 !important;
+}
+.pricing_card:hover .fa-heart 
+{
+    transition: 0.2s ease-in-out;
+    transform: rotatey(180deg) ;
+}
+
