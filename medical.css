@@ -1,34 +1,41 @@
-*{
+*{  
     font-family: Montserrat;
     font-weight: 700;
     padding: 0;
     margin: 0;
     text-decoration: none;
+    box-sizing: border-box;
+    cursor:default;
 }
-header{
-    height: 114px;
-    background-color:#26335D;
-}
+a{cursor: pointer;}
 
+header{
+   max-width: 100%;
+   background-color:#26335D;
+   
+}
+body{
+    overflow-x: hidden;
+}
 
 .container{
-    width: 1200px;
+    max-width: 1200px;
     margin: 0px auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color:#26335D;
+    padding: 0 30px;
+  
+    
+    
 }
 .navbar{ 
+   
+    max-width: 100%;
+    padding: 20px 30px;
     display: flex;
-    margin: 30px auto;
-    width: 100%;
-    gap: 10px;
+    justify-content: space-between;
+    position: relative;
 }
 
 .leftnav{
-    justify-content: center;
-    width: 35%;
     display: flex;
     align-items: center;
 }
@@ -39,19 +46,34 @@ header{
     color: #FFFFFF;
 }
 
-.rightnav{
-    justify-content: space-around;
-    width: 100%;
+.rightnav__container{
     display: flex;
     align-items: center;
+    gap: 60px;
+    
+  
 }
-
+.hamIcons{
+    display: none;
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    z-index: 1;
+}
+.hamIcons .openIcon,.hamIcons .closeIcon{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+   
+}
+.hamIcons .closeIcon{
+    display: none;
+}
 .text ul li a{
     text-decoration: none;
     color: #fff;
+    cursor: pointer;
 }
-.text ul li a:hover{
-    text-underline-position: above;
+.text ul li a:hover{    
     color: #1BA0AB;
 }
 .text ul li{
@@ -64,34 +86,39 @@ header{
     justify-content: flex-start;
     gap: 24px;
     align-items: center;
+
 }
 .text{
     width: 55%;
 }
 .button{
     display: flex;
-    gap: 10px;
+    gap: 30px;
+    
 }
 .login{
     background-color: transparent;
     border: none;
     color: #FFFFFF;
-
+    cursor: pointer;
     font-size: 14px;
     line-height: 24px;
+}.login:hover{    
+    color: #1BA0AB;
 }
 .joinus{
     background-color: #1BA0AB;
     color: #FFFFFF;
     font-size: 14px;
-    line-height: 24px;
-    padding: 15px 25px 15px 25px;
-    gap: 15px;
     border-radius: 7px ;
-    opacity: 0px;
+    padding: 16px 12px;
     display: flex;
-    border: none;
+    width: 120px;
+    gap: 10PX;
     align-items: center;
+    border: 0;
+    cursor: pointer;
+   
 }
 .joinus span{
     font-size: 15px;
@@ -100,26 +127,38 @@ header{
 }
 
 
+
+
 /* navigation bar finish */
+
+
+
 
 
 .first_page{
     
     background-color:#26335D;
 }
-.first_page .container{
-    height: 683px;
-}
 
+.homePage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   
+}
 .left{
     width: 100%;
     
 }.box{
     width:573px;
-    height:356px;
+    
     gap: 30px;
-    opacity: 0px;
-    display: grid;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 100px;
 
 }
 .box h5{
@@ -139,11 +178,12 @@ header{
     gap: 12px;
     
 }
+
 .btn .fst_btn{
     border: 2px solid #1BA0AB;
-    background-color: #26335D;
+    background-color: #1BA0AB;
     height: 50px;
-    color: #1BA0AB;
+    color: #FFFFFF;
     font-size: 14px;
     line-height: 24px;
     padding: 15px 25px 15px 25px;
@@ -156,13 +196,12 @@ header{
 }
 .btn .snd_btn{
     border: 2px solid #1BA0AB;
-    
-    height: 50px;
     background-color: #26335D;
+    height: 50px;
     color: #1BA0AB;
     font-size: 14px;
     line-height: 24px;
-    padding: 15px 25px 15px 25px;
+    padding: 15px;
     border-radius: 7px ;
     opacity: 0px;
     display: flex;
@@ -170,31 +209,37 @@ header{
     font-weight: 600;
     cursor: pointer;
     
+    
 }
 .btn .snd_btn:hover, .btn .fst_btn:hover {
-    background-color: #1BA0AB;
-    color: white;
+    border-color: #FFFFFF;
+    color: #FFFFFF;
     
   }
 
 
 .right{
-    width: 100%;
+    width: 50%;
     display: flex;
-}.right .small_pic{
-    width: 271px;
-    height: 249px;
+    margin-top: 100px;
+}.right .large_pic{
+    width: 325px;
+    height: 406px;
+    border-radius: 10px 10px 10px 10px;
+    margin: 0px 0px 100px 100px;
+    position: relative;
+   right: 200px;
+}
+
+.right .small_pic{
+    width: 171px;
+    height: 149px;
     border-radius: 10px 10px 10px 10px;
     border: 4px solid #FFFFFF;
-
-    position: absolute;
+    position: relative;
+    z-index: 1;
     margin: 288px 0px 0px 58px;
 
-}.right .large_pic{
-    width: 425px;
-    height: 506px;
-    border-radius: 10px 10px 10px 10px;
-    margin: -30px -639px 0px 154px;
 }
 
 
@@ -205,12 +250,15 @@ header{
     background-color: #FFFFFF;
 
 }
-.second_page .container{
-    height: 683px;
-    background-color: #FFFFFF;
-}.left_two{
-    width: 100%;
-    height: 100%;
+
+.left_two{
+    /* width: 100%; */
+    /* height: 100%; */
+}
+.aboutPage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .s_p_square{
     Width:116px;
@@ -273,6 +321,16 @@ header{
     display: flex;
     align-items: center;
     text-decoration: none;
+    cursor: pointer;
+    border: solid transparent;
+    padding: 10px;
+    width: 150px;
+}.setbox a:hover{
+    
+    border-color: #1BA0AB;
+    border-radius: 5px;
+    
+
 }
 
 
@@ -285,19 +343,21 @@ header{
     background-color: #FFFFFF;
 }
 .brand_page .container{
-    Height:175px;
+    
     background-color: #FFFFFF;
 }
 .bnd_pg_box{
-    width: 100%;
-    height: 100%;
+    /* width: 100%;
+    height: 100%; */
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+    
 }
 .fa-brands {
     font-size: 75px;
     color: #737373;
+    padding: 30px;
 }
 
 
@@ -309,10 +369,11 @@ header{
 .third_page{
     background-color: #FFFFFF;
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
     
     gap: 80px;
     opacity: 0px;
+    
 
 
 }
@@ -322,8 +383,9 @@ header{
     
 }
 .trd_pg_box{
-    height: 918px;
+    /* height: 918px; */
     background-color: #FFFFFF;
+    
     
 }
 
@@ -331,7 +393,7 @@ header{
     width: 100%;
     height: 134px;
     display: grid;
-    justify-content: left;
+    /* justify-content: left; */
     margin-top: 72px;
 }
 .trd_pg_content h6{
@@ -348,19 +410,21 @@ header{
 
 .cards{
     width:100%;
-    height:622px;
     gap: 30px;
     opacity: 0px;
     background-color: #FFFFFF;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 80px;
+    
+    flex-wrap: wrap;
 }
 .health_queries{
     width: 328px;
     background-color: #FFFFFF;
     transition: 0.4s ease-in-out ;
-
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    
 
 }.health_queries img{
     width: 328px;
@@ -371,6 +435,7 @@ header{
     background-color: #FFFFFF;
     transition: 0.4s ease-in-out ;
     width: 328px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 .book_now img{
     width: 328px;
@@ -381,6 +446,7 @@ header{
     background-color: #FFFFFF;
     
     transition: 0.4s ease-in-out ;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }.appoinment img{
     width: 328px;
     transition: 0.4s ease-in-out ;
@@ -401,6 +467,7 @@ header{
     display: flex;
     justify-content: space-between;
     
+    
 }
 .rate span{
     background-color: #FFFFFF;
@@ -408,6 +475,8 @@ header{
     padding: 0px;
     font-size: 0px;
     transition: 0.4s ease-in-out;
+
+    
 
 }
 
@@ -438,7 +507,7 @@ header{
 
 .cards button{display: flex; justify-content: center; align-items: center;gap: 3px; color: #1BA0AB; 
     border: 1px solid #1BA0AB; border-radius: 37px; background-color: transparent; 
-    width: 141px;height: 44px;}
+    width: 141px;height: 44px; cursor: pointer;}
 
 .card{display: grid; padding: 26px; row-gap: 16px;}
 
@@ -448,14 +517,14 @@ header{
 
 
 
-.fourth_page{background-color: #ffffff;width: 100%;height: 1249px;}
+.fourth_page{background-color: #ffffff ;width: 100%;  }
 .fourth_page .container{background-color: #ffffff;}
 
 .fourth_top{margin-top: 49px;margin-left: 35px; height: 134px;display: flex;flex-direction: column; justify-content:space-around;}
 
-.fourth_bottom{width: 100%;display: flex; justify-content: space-around;margin-top: 80px;margin-bottom: 49px;}
-.pricing_card{background-color: rgb(255, 255, 255); width:323px;height: 908px; text-align: center;
-            box-shadow:0px 0px 9px 0px #e3e1e1  ;}
+.fourth_bottom{width: 100%;display: flex; justify-content: space-around;margin-top: 80px;margin-bottom: 49px;flex-wrap: wrap;}
+.pricing_card{background-color: rgb(255, 255, 255); width:323px;height: 908px; text-align: center;margin-top: 20px;margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;  ;transition: 0.4s ease-in-out; }
 
 .pricing_card .fa-heart     {color: #FFFFFF;font-size: 36px; border-radius: 50%;background-color: #F69B25;
                                  width: 96px;height: 96px;display: flex; flex-direction: column; justify-content: center;}
@@ -464,7 +533,7 @@ header{
 .pricing_card h2    {font-size: 40px;color: #1BA0AB;}
 .pricing_card p     {font-size: 14px;font-weight: 600; color: #737373;}
 .pricing_card button    {background-color: #1BA0AB;color: #FFFFFF; Padding:  15px, 40px, 15px, 40px;
-    border-radius: 5px;border: none; padding :16px; width: 244px;}
+    border-radius: 5px;border: none; padding :16px; width: 244px;cursor: pointer;}
 
 .pricing_card .fa-circle-check{font-size: 30px;color: #2DC071;}
 
@@ -484,26 +553,38 @@ header{
 }
 .fifth_box
 {
-    width: 100%; height: 851.01px;
+    width: 100%; ;
     display: flex; flex-direction: column; justify-content: center; row-gap: 80px;
 }
 .fifth_top
 {
-    Width:100%;Height:134px;
-    display: flex;flex-direction: column;justify-content: space-around; margin-left: 35px;
+    Width:100%;
+    display: flex;flex-direction: column;justify-content: space-around;margin-top: 35px; 
+    margin-left: 35px;
 }
 .fifth_bottom
 {
-    width: 100%; height: 317.01px; display: flex;justify-content: space-around;
+    width: 100%; ; display: flex;justify-content: space-around;flex-wrap:wrap ;
 }
 .fif_card
 {
-    width:328px;height: 317.01px; background-color: #FFFFFF;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    width:328px; background-color: #FFFFFF ;margin-bottom: 80px;transition: 0.5s;
+    padding: 20px 0px;
 }
 .fa-star
 {
     color: #F3CD03;
 }
+.fif_card i{transition: 0.5s;}
+.fif_card:hover i{
+    transform: scale(1.3);
+    transition: 0.5s;
+}
+
+
+
+
 
 
 /* fifth page finish */
@@ -555,6 +636,15 @@ header{
     color: #1BA0AB;
 }
 
+.foot_symbol li h6 {
+    display: flex;
+    flex-direction: row;
+    text-align: start;
+    align-items: center;
+
+    
+}
+
 /* footer finish */
 
 
@@ -564,6 +654,8 @@ header{
     color: #1BA0AB;
     margin: 5px;
 }
+
+
 
 
 /* full page finish */
@@ -589,13 +681,14 @@ header{
 
     
     
-}.health_queries:hover .rate span
+}.health_queries .rate span
 {
     transform: scale(1.05);
     transition: 0.4s ease-in-out;
     padding: 5px;
     font-size: 20px;
     border-radius: 50%; 
+    cursor: pointer;
 }
 .book_now:hover
 {
@@ -604,13 +697,14 @@ header{
     transform: scale(1.05);
     transition: 0.4s ease-in-out ;
     
-}.book_now:hover .rate span
+}.book_now .rate span
 {
     transform: scale(1.05);
     transition: 0.4s ease-in-out;
     padding: 5px;
     font-size: 20px;
     border-radius: 50%; 
+    cursor: pointer;
 }
 .appoinment:hover
 {
@@ -619,22 +713,24 @@ header{
     transform: scale(1.05);
     transition: 0.4s ease-in-out ;
     
-}.appoinment:hover .rate span
+}
+.appoinment .rate span
 {
     transform: scale(1.05);
     transition: 0.4s ease-in-out;
     padding: 5px;
     font-size: 20px;
     border-radius: 50%; 
+    cursor: pointer;
 }
 
 
 
 .pricing_card:hover 
 {
-    transform: scale(1.05);
+    transform: scale(1.03);
     transition: 0.4s ease-in-out;
-    box-shadow:0px 0px 50px 0px #000000  ;
+    box-shadow:0px 0px 10px 1px #000000  ;
     display: block;
 
     background-color: #26335D;
@@ -666,5 +762,6 @@ header{
 {
     transition: 0.2s ease-in-out;
     transform: rotatey(180deg) ;
+    
 }
 

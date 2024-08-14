@@ -1,0 +1,275 @@
+
+@media (max-width:900px){
+    .rightnav__container{
+        gap: 30px;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: -1000px;
+        right: 0;
+        bottom: 0;
+        left: 300px;
+        height: 80vh;
+        border-radius: 0px 0px 30px 400px;
+        background-color: rgb(98, 145, 157) ;
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+        justify-content: center;
+        align-items: center ;
+        transition: all 1s ease;
+        z-index: 2;
+    }
+    
+    .hamIcons{
+        display: block;
+        z-index: 3;
+    }
+    .text ul{
+        gap: 34px;
+        flex-direction: column;
+    }
+    .text{
+        width: 55%;
+    }
+    .button{
+        flex-direction: column;
+    }
+    #hamIcon:checked ~ .rightnav__container {
+       top: 0px;
+    }
+    #hamIcon:checked ~ .hamIcons .closeIcon {
+       display: block;
+       
+    }
+    #hamIcon:checked ~ .hamIcons .openIcon {
+       display: none;
+       
+    }
+}
+
+
+
+
+/* nav bar finish */
+
+
+
+@media(max-width:1000px){
+    .homePage{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        
+        
+    }
+    .left{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 100vh;
+
+    }.right{
+        
+        display: flex;
+        justify-content: center;
+        display: none;
+    }
+    .right .small_pic{
+        left :100px;
+        position: relative;
+        
+    }
+    .right .large_pic{
+        margin-left: 200px;
+        
+    }
+    .box{
+        padding-left: 0;
+    }
+    .btn{
+        display: flex;
+        justify-content: center;
+    }
+
+    /* first page finish */
+
+    .aboutPage{
+        display: flex;
+        flex-direction: column;
+
+    }.right_two{
+        margin-top: 100px;
+        margin-bottom: 50px;
+        
+    }
+    
+    .left_two .image{
+        width: 325px;
+        height: 406px;
+        margin: 90px 0px 0px 90px;
+        
+    
+    }
+
+    .s_p_square{
+        margin:  60px 0px 0px 330px;
+    }
+    .s_p_circle{
+        margin-top: 250px;
+        margin-left: 55px;
+        
+        
+    
+    
+    }
+    /* second page finish */
+
+    .fa-brands {
+        font-size: 60px;
+        padding: 15px;
+        
+    }
+    /* brand section finish */
+
+    .mail .input{
+        width: 300px !important;
+        height: 40px !important;
+
+      }.mail button{
+        height: 40px !important;
+      }
+
+}
+
+
+
+
+@media (max-width:700px){
+    
+     
+    .fa-brands {
+        font-size: 40px;
+        padding: 10px;
+        
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:1000px){
+    
+}
+
+
+
+
+@media(max-width:700px){
+    .container{
+        padding: 0px 10px;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }.trd_pg_content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+}
+
+
+/* third page finish */
+
+
+
+@media(max-width:700px){
+    .fourth_top{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }.fourth_bottom {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center; 
+        gap :20px;
+    }
+}
+
+
+
+/* forth page finish */
+
+
+
+
+@media(max-width:700px){
+    .fifth_box{
+        row-gap: 40px;
+    }
+    .fifth_top{
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center;
+        text-align: center;
+        margin-left: 0px;
+    }.fifth_bottom{
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center;
+        margin: 10px;
+        gap: 10px;
+        
+    }
+}
+
+
+/* fifth page finish */
+
+
+@media(max-width:1000px){
+      
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
