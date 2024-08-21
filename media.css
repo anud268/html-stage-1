@@ -1,5 +1,48 @@
+@media (max-width:1025px){
+
+    
+}
+@media (max-width:769px){
+
+    
+}
+@media (max-width:481px){
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
 
 @media (max-width:900px){
+   
+
     .rightnav__container{
         gap: 30px;
         display: flex;
@@ -8,10 +51,10 @@
         top: -1000px;
         right: 0;
         bottom: 0;
-        left: 300px;
-        height: 80vh;
-        border-radius: 0px 0px 30px 400px;
-        background-color: rgb(98, 145, 157) ;
+        left: 0;
+        height: 100vh;
+        border-radius: 0px 0px 50% 50%;
+        background-color: rgba(0, 0, 0, 0.783) ;
         box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
         justify-content: center;
         align-items: center ;
@@ -26,15 +69,21 @@
     .text ul{
         gap: 34px;
         flex-direction: column;
+        
     }
     .text{
-        width: 55%;
+        
+        width: 100%;
     }
     .button{
         flex-direction: column;
+        
     }
+
     #hamIcon:checked ~ .rightnav__container {
        top: 0px;
+       align-items: center;
+
     }
     #hamIcon:checked ~ .hamIcons .closeIcon {
        display: block;
@@ -53,7 +102,7 @@
 
 
 
-@media(max-width:1000px){
+@media(max-width:1025px){
     .homePage{
         display: flex;
         flex-direction: column;
@@ -69,9 +118,32 @@
         justify-content: center;
         align-items: center;
         text-align: center;
-        height: 100vh;
+        padding: 40px;
 
-    }.right{
+    }.box h1{
+        
+        font-size: 35px;
+        
+    }.box h4{
+        
+        font-size: 12px;
+        font-weight: 500;
+    }.btn .fst_btn{
+        font-size: 12px;
+        height: 40px;
+        font-weight: 500;
+
+    }.btn .snd_btn{
+        font-size: 12px;
+        height: 40px;
+        font-weight: 500;
+    }
+    
+    
+
+
+
+    .right{
         
         display: flex;
         justify-content: center;
@@ -98,33 +170,38 @@
 
     .aboutPage{
         display: flex;
-        flex-direction: column;
+        flex-wrap:revert;
 
     }.right_two{
-        margin-top: 100px;
+        margin-top: 50px;
         margin-bottom: 50px;
         
     }
-    
     .left_two .image{
-        width: 325px;
-        height: 406px;
-        margin: 90px 0px 0px 90px;
-        
-    
+        display: none;
     }
+    .right_two .setbox{
+        width:  481px;
+        gap: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .setbox .line{
+        height: 6px;
+    }
+    .setbox h2{
+        font-size: 35px;
+    }
+    .setbox p{
+        font-size: 12px;
+        font-weight: 600;
+    }.setbox a{
+        font-size: 12px;
+    }
+    
 
-    .s_p_square{
-        margin:  60px 0px 0px 330px;
-    }
-    .s_p_circle{
-        margin-top: 250px;
-        margin-left: 55px;
-        
-        
-    
-    
-    }
     /* second page finish */
 
     .fa-brands {
@@ -132,72 +209,297 @@
         padding: 15px;
         
     }
+
     /* brand section finish */
 
-    .mail .input{
-        width: 300px !important;
-        height: 40px !important;
+    .trd_pg_content{
+        margin-top: 52px;
+        gap: 20px;
+        left: 52px;
+    }
 
-      }.mail button{
-        height: 40px !important;
-      }
+    .trd_pg_content h6 {
+        font-size: 10px;
+    }
+    .trd_pg_content h2 {
+        font-size: 30px;
+    }
 
-}
+    .trd_pg_content p {
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .cards{
+        margin-top: 60px;
+    }
 
 
-
-
-@media (max-width:700px){
-    
-     
-    .fa-brands {
-        font-size: 40px;
-        padding: 10px;
+    .health_queries img{
+        /* max-width: 280px; */
+        padding: 15px;
         
     }
-    
-}
-
-
-
-
-
-
-
-
-
-
-
-@media(max-width:1000px){
-    
-}
-
-
-
-
-@media(max-width:700px){
-    .container{
-        padding: 0px 10px;
+    .book_now img{
+        /* max-width: 280px; */
+        padding: 15px;
     }
-    .cards{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }.trd_pg_content {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
+    .appoinment img{
+        /* max-width: 280px; */
+        padding: 15px;
     }
 
-}
+    .health_queries .rate span{
+        font-size: 15px;
+    }.book_now .rate span{
+        font-size: 15px;
+    }.appoinment .rate span{
+        font-size: 15px;
+    }
+
+
+
+    .card{
+        row-gap: 14px;
+        padding: 22px;
+        padding-top: 0px;
+    }
+
+    .cards a {
+       
+        font-size: 12px;
+    }
+    .star span {
+        
+        font-size: 16px;
+    }
+
+    .cards h5 {
+        font-size: 14px;
+    }
+    .cards p {
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .sales h6 {
+        font-size: 12px;
+    }
+
+    .sales span {
+        font-size: 22px;
+    }
+
+   
+
+    .cards button {
+        width: 120px;
+        height: 35px;
+        
+    }
 
 
 /* third page finish */
 
 
+    .fourth_top h6{
+        font-size: 12px; 
+        color: #1ba0ab;
+    }
+    .fourth_top h2{
+        font-size: 35px;
+    }
+    .fourth_top p{
+        font-size: 12px; 
+        font-weight: 500; 
+    }
 
+
+
+
+    .pricing_card .fa-heart {
+        font-size: 30px;
+        width: 76px;
+        height: 76px;
+    }
+
+    .pricing_card h3 {
+        font-size: 22px;
+    }
+
+    .pricing_card h6 {
+        font-size: 12px;
+    }
+
+
+    .pricing_card h2 {
+        font-size: 35px;
+    }
+
+
+    .pricing_card p {
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .pricing_card button {
+        padding: 13px;
+        font-size: 12px;
+    }
+
+
+    .inside_pricing_card {
+        gap: 45px;
+    }
+
+
+    .new_icon{
+        width: 70px;
+        height: 70px;
+    }
+
+
+
+    /* forth page finish */
+
+    .fifth_top h6{
+        font-size: 12px; 
+    }.fifth_top h2{
+        font-size: 30px; 
+        color: #fff;
+    }.fifth_top P{
+        font-weight: 450; 
+        font-size: 12px; 
+    }
+
+
+    .fif_card{
+        margin-bottom: 60px;
+    }
+
+
+
+
+    .designer {
+         gap: 10px;
+    }.designer img {
+        width: 50px; 
+        height: 50px; 
+        
+    }
+    .designer h6{
+        font-size: 12px;
+    }
+    .designer .name{
+        font-weight: 480; 
+        font-size: 10px; 
+    }
+
+
+    .fif_card_box p{
+        font-weight: 480; 
+        font-size: 12px;
+    }
+
+
+
+    .sixth_top h6{
+        font-size: 12px; 
+    }
+    .sixth_top h2{
+        font-size: 30px;
+    }
+    .sixth_top p{
+        font-weight: 480; 
+        font-size: 12px;
+    }
+    
+
+
+
+
+
+    .sixth_bottom .mail{
+        width: 688px;
+        height: 58px;
+        gap: 0px;
+    }
+    
+    .sixth_bottom .input{
+        width: 510px;
+        height: 48px;
+        font-size: 12px;
+        font-weight: 500;
+        padding-left: 15px;
+    }
+    .sixth_bottom button{
+        width: 138px;
+        height: 48px;
+        font-size: 12px;
+    }
+    
+
+
+    .foot_box ul li a{
+        font-size: 12px;
+        
+        
+    }
+    .foot_box h5{
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+
+    foot_symbol li h6 {
+        font-size: 12px;
+    }
+    foot_symbol li h6 span{
+        font-size: 12px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* third page finish */
+
+
+/* 
 @media(max-width:700px){
     .fourth_top{
         display: flex;
@@ -211,7 +513,7 @@
         align-items: center; 
         gap :20px;
     }
-}
+} */
 
 
 
@@ -220,7 +522,7 @@
 
 
 
-@media(max-width:700px){
+/* @media(max-width:700px){
     .fifth_box{
         row-gap: 40px;
     }
@@ -240,14 +542,368 @@
         gap: 10px;
         
     }
-}
+} */
 
 
 /* fifth page finish */
 
 
-@media(max-width:1000px){
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:769px){
+    
+
+    .box h1{
+        font-size: 25px;
+    }
+    .box h4{
+        
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .box h5{
+        font-size: 10px;
+    }
+    .btn .fst_btn{
+        font-size: 10px;
+        height: 30px;
+        font-weight: 400;
+        padding: 12px 15px 12px 15px;
+    }.btn .snd_btn{
+        font-size: 10px;
+        height: 30px;
+        font-weight: 400;
+        padding: 12px;
+    }
+
+    /* first page finish */
+
+    .right_two{
+        margin-top: 30px;
+        margin-bottom: 40px;
+        
+    }.right_two .setbox{
+        gap: 15px;
+    }
+
+    .left_two{
+        display: none;
+        
+    }
+
+    .setbox .line{
+        height: 5px;
+    }
+    .setbox h2{
+        font-size: 25px;
+    }
+    .setbox p{
+        font-size: 10px;
+        font-weight: 500;
+    }
+    .setbox a{
+        font-size: 10px;
+    }
+
+
+
+
+
+    /* second page finish */
+    
+    .fa-brands {
+        font-size: 40px;
+        padding: 10px;
+        
+    }
+
+    /* brand section finish */
+
+    .trd_pg_content{
+        margin-top: 32px;
+        gap: 13x;
+    }
+
+    .trd_pg_content h6 {
+        font-size: 8px;
+    }
+    .trd_pg_content h2 {
+        font-size: 20px;
+    }
+    .trd_pg_content p {
+        font-size: 10px;
+        font-weight: 400;
+    }
+
+    .cards{
+        margin-top: 40px;
+    }
+
+    .health_queries img{
+        /* max-width: 260px; */
+        padding: 20px;
+    }
+    .book_now img{
       
+        padding: 20px;
+    }
+    .appoinment img{
+        /* max-width: 280px; */
+        padding: 20px;
+    }
+    .health_queries .rate span{
+        font-size: 11px;
+    }.book_now .rate span{
+        font-size: 11px;
+    }.appoinment.rate span{
+        font-size: 11px;
+    }
+
+
+
+    .card{
+        row-gap: 12px;
+        padding: 18px;
+        padding-top: 0px;
+    }
+
+
+
+    .cards a {
+       
+        font-size: 10px;
+    }
+
+    .star span {
+        
+        font-size: 14px;
+    }
+
+    .cards h5 {
+        font-size: 12px;
+    }
+    .cards p {
+        font-size: 10px;
+        font-weight: 500;
+    }
+
+    .sales h6 {
+        font-size: 10px;
+    }
+
+    .sales span {
+        font-size: 20px;
+    }
+
+    
+    .cards button {
+        width: 100px;
+        height: 30px;
+        
+    }
+
+
+/* third page finish */
+
+.fourth_top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0px; 
+    text-align: center;
+}.fourth_bottom {
+    margin-top: 0px;
+}
+.fourth_top h6{
+    font-size: 10px; 
+    color: #1ba0ab;
+}
+.fourth_top h2{
+    font-size: 30px;
+}
+.fourth_top p{
+    font-size: 10px;
+     font-weight: 400;
+}
+
+
+
+
+.pricing_card .fa-heart {
+    font-size: 25px;
+    width: 60px;
+    height: 60px;
+}
+
+
+.pricing_card h3 {
+    font-size: 20px;
+}
+
+
+.pricing_card h6 {
+    font-size: 10px;
+    
+}
+
+.pricing_card h2 {
+    font-size: 30px;
+}
+
+.pricing_card p {
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.pricing_card button {
+    padding: 11px;
+    font-size: 11px;
+}
+
+
+.inside_pricing_card {
+    gap: 35px;
+}
+
+.new_icon{
+    width: 60px;
+    height: 60px;
+    left: 235px;
+}
+
+/* forth page finish */
+
+.fifth_top h6{
+    font-size: 10px; 
+}.fifth_top h2{
+    font-size: 25px;
+     color: #fff;
+}.fifth_top P{
+    font-weight: 400; 
+    font-size: 10px; 
+}
+
+.fif_card{
+    margin-bottom: 40px;
+}
+
+
+
+.designer {
+    gap: 8px;
+}.designer img {
+   width: 40px; 
+   height: 40px; 
+   
+}
+.designer h6{
+   font-size: 10px;
+}
+.designer .name{
+   font-weight: 450; 
+   font-size: 8px; 
+}
+
+
+.fif_card_box p{
+    font-weight: 480; 
+    font-size: 10px;
+}
+
+
+
+.sixth_top h6{
+    font-size: 10px; 
+}
+.sixth_top h2{
+    font-size: 25px;
+}
+.sixth_top p{
+    font-weight: 450; 
+    font-size: 10px;
+}
+
+
+
+
+.sixth_bottom .mail{
+    width: 688px;
+    height: 58px;
+    gap: 0px;
+}
+
+.sixth_bottom .input{
+    width: 300px;
+    height: 40px;
+    font-size: 10px;
+    font-weight: 400;
+    padding-left: 15px;
+}
+.sixth_bottom button{
+    width: 88px;
+    height: 40px;
+    font-size: 10px;
+}
+
+
+
+.foot_box ul li a{
+    font-size: 10px;
+    
+    
+}
+.foot_box h5{
+    font-size: 12px;
+    margin-bottom: 13px;
+}
+
+foot_symbol li h6 {
+    font-size: 10px;
+}
+
+foot_symbol li h6 span{
+    font-size: 10px;
+    }
+
+
+
+    .sixth_box
+    {
+        margin-bottom: 50px;
+
+
+
+
+
+
+
+
+}
+
+
+
+
 }
 
 
@@ -264,6 +920,386 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:481px){
+    
+
+    .box h1{
+        font-size: 15px;
+    }
+    .box h4{
+        
+        font-size: 8px;
+        font-weight: 300;
+    }
+    .box h5{
+        font-size: 8px;
+    }
+    .btn .fst_btn{
+        font-size: 8px;
+        height: 20px;
+        font-weight: 300;
+        padding: 10px 10px 10px 10px;
+    }.btn .snd_btn{
+        font-size: 8px;
+        height: 20px;
+        font-weight: 300;
+        padding: 10px;
+    }
+
+    /* first page finish */
+
+    .right_two{
+        margin-top: 20px;
+        margin-bottom: 30px;
+        
+    }.right_two .setbox{
+        gap: 7px;
+    }
+
+    .setbox .line{
+        height: 4px;
+    }
+    .setbox h2{
+        font-size: 15px;    
+    }
+    .setbox p{
+        font-size: 8px;
+    }
+    .setbox a{
+        font-size: 8px;
+    }
+
+
+
+
+
+    /* second page finish */
+
+    .fa-brands {
+        font-size: 25px;
+        padding: 6px;
+        
+    }
+
+    /* brand section finish */
+
+    .trd_pg_content{
+    margin-top: 12px;
+    gap: 7px;
+    }
+
+    .trd_pg_content h6 {
+        font-size: 6px;
+    }
+    .trd_pg_content h2 {
+        font-size: 10px;
+    }
+
+    .trd_pg_content p {
+        font-size: 8px;
+        
+    }
+
+    .cards{
+        margin-top: 20px;
+    }
+
+
+    
+    .health_queries{
+        /* max-width: 280px; */
+        
+    
+    }.health_queries img{
+        /* max-width: 240px; */
+        padding: 30px;
+    }
+    .book_now{
+        /* max-width: 280px; */
+        }
+    .book_now img{
+        /* max-width: 280px; */
+        padding: 30px;
+    }
+    .appoinment{
+        /* max-width: 280px; */
+    }.appoinment img{
+        /* max-width: 280px; */
+        padding: 30px;
+    }
+    .sale{
+       
+        font-size: 10px;
+        padding: 3px 8px;
+        margin: 15px 15px;
+        border-radius: 3px;
+    }
+    .health_queries .rate span{
+        font-size: 8px;
+    }.book_now .rate span{
+        font-size: 8px;
+    }.appoinment .rate span{
+        font-size: 8px;
+    }
+
+
+    
+    .card{
+        row-gap: 10px;
+        padding: 18px;
+        padding-top: 0px;
+    }   
+       
+        
+        
+    
+    
+    
+    .cards a {
+       
+        font-size: 8px;
+    }
+    .star span {
+       
+        font-size: 12px;
+    }
+
+    .cards h5 {
+        font-size: 10px;
+    }
+    .cards p {
+        font-size: 8px;
+    }
+
+    .sales h6 {
+        font-size: 8px;
+    }
+
+    .sales span {
+        font-size: 18px;
+    }
+
+
+    .cards button {
+        width: 80px;
+        height: 25px;
+        
+    }
+
+
+
+
+/* third page finish */
+
+.fourth_top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0px; 
+    text-align: center;
+}.fourth_bottom {
+    margin-top: 0px;
+}
+
+.fourth_top h6{
+    font-size: 8px; 
+    color: #1ba0ab;
+}
+.fourth_top h2{
+    font-size: 25px;
+}
+.fourth_top p{
+    font-size: 8px; 
+}
+
+
+.pricing_card{
+    width:260px;
+}
+.pricing_card button{
+    width: 180px;
+}
+
+
+
+.pricing_card .fa-heart {
+    font-size: 20px;
+    width: 46px;
+    height: 46px;
+}
+
+.pricing_card h3 {
+    font-size: 18px;
+}
+
+
+.pricing_card h6 {
+    font-size: 8px;
+}
+
+.pricing_card h2 {
+    font-size: 25px;
+}
+
+.pricing_card p {
+    font-size: 8px;
+    
+}
+
+.pricing_card button {
+    padding: 9px;
+    font-size: 10px;
+}
+
+
+.inside_pricing_card {
+    gap: 25px;
+}
+
+.new_icon{
+    width: 50px;
+    height: 50px;
+    top: -30px;
+    left: 230px;
+}
+
+
+/* forth page finish */
+
+.fifth_top h6{
+    font-size: 8px; 
+}.fifth_top h2{
+    font-size: 20px; 
+    color: #fff;
+}.fifth_top P{
+    font-size: 8px; 
+}
+
+
+.fif_card{
+    margin-bottom: 20px;
+}
+
+
+
+.designer {
+    gap: 6px;
+}.designer img {
+   width: 30px; 
+   height: 30px; 
+   
+}
+.designer h6{
+   font-size: 8px;
+}
+.designer .name{
+   font-weight: 420; 
+}
+
+
+
+.fif_card_box p{
+    font-weight: 480; 
+    font-size: 8px;
+}
+
+
+
+.sixth_top h6{
+    font-size: 8px; 
+}
+.sixth_top h2{
+    font-size: 20px;
+}
+.sixth_top p{
+    font-weight: 430; 
+    font-size: 8px;
+}
+
+
+
+
+.sixth_bottom .mail{
+    width: 688px;
+    height: 58px;
+    gap: 0px;
+}
+
+.sixth_bottom .input{
+    width: 200px;
+    height: 30px;
+    font-size: 8px;
+    padding-left: 15px;
+}
+.sixth_bottom button{
+    width: 70px;
+    height: 30px;
+    font-size: 8px;
+}
+
+
+
+.foot_box ul li a{
+    font-size: 8px;
+    
+    
+}
+.foot_box h5{
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+foot_symbol li h6 {
+    font-size: 8px;
+}
+
+foot_symbol li h6 span{
+    font-size: 8px; 
+}
+
+
+
+.sixth_box
+{
+    margin-bottom: 30px;
+
+
+
+}
 
 
 
