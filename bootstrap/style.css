@@ -1,0 +1,38 @@
+
+.form{
+    background-color: #E9EDF2;
+}
+.basic h2{
+    color: #2B3674;
+}
+.advance h2{
+    color: #2B3674;
+}
+.Upload-input{
+    display: none ;
+}
+.upload-box{
+    border: dashed;
+}
+*{
+    font-size: 12px;
+    color: #2B3674;
+    font-weight: 600;
+}
+span{
+    color: red;
+    font-weight: 500;
+}
+.warning_msg{
+color: #624E17;
+}
+input.form-control::placeholder,textarea.form-control::placeholder {
+    opacity: .6;
+    font-weight: 400;
+}
+input.form-control,textarea.form-control, select.form-select{
+    font-weight: 600;
+}
+select.form-select::first-line{
+    color: #624E17;
+}

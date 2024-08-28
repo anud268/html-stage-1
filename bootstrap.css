@@ -1,0 +1,34 @@
+    /* CONTAINER */
+
+.container{
+    background-color: aqua;
+}.container-fluid{
+    background-color: orange;
+}.container-sm{
+    background-color: yellow;
+}.container-md{
+    background-color: green;
+}.container-lg{
+    background-color: blue;
+}.container-xl{
+    background-color: rgb(255, 0, 200);
+}.container-xxl{
+    background-color: rgb(85, 211, 240);
+}
+
+
+        /* GRID */
+
+.row{
+    
+    border: 4px solid rgb(0, 255, 38);
+    
+}.col{
+    background-color: blue;
+    border: 4px solid rgb(21, 239, 255);
+}
+
+
+.col-sm-4{
+    background-color: brown;
+}    

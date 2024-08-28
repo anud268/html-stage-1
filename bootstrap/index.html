@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <form>
+    <div class="form">
+        <div class="container">
+            <div class="row main-section g-4 d-flex p-4 ">
+                <div class=" col-md-12 col-lg-12 col-xl-6 ">
+                <div class="container 
+                            basic
+                            rounded-4 
+                            p-4
+                            bg-white
+                            g-4
+                            ">
+                    <h2 class="fs-5">Basic Details</h2>
+                    <label for="file" class="upload-box
+                                            rounded-4 
+                                            d-flex 
+                                            flex-column 
+                                            align-items-center
+                                            align-content-center
+                                            justify-content-center
+                                            text-muted
+                                            p-3 
+                                            my-4
+                                            ">
+                        <i class="fa-solid fa-cloud-arrow-up text-primary fs-1"></i>
+                        <p class="fw-semibold text-primary">Upload Image</p>
+                        <input type="file" id="file" class="Upload-input">
+                        <p class="text-muted">PNG, JPG files are allowed</p>
+                    </label>
+
+
+                    <div class="row2 d-flex gap-4 justify-content-center flex-wrap my-4">
+                        <div class="col-12 col-md-12 col-lg-3">
+                            <label for="salu" >Salutation <span>*</span></label>
+                            <select class="form-select border-dark-subtle rounded-4 h-75" aria-label="Default select example" id="salu"required>
+                                <option selected class="select">Select</option>
+                                <option value="1">Mister</option>
+                                <option value="2">Missis</option>
+                              </select>
+                        </div>
+                        <div class=" col-12 col-md-6 col-lg-4 ">
+                            <label for="fname">First Name <span>*</span></label>
+                            <input type="name" class="abc form-control border-dark-subtle rounded-4 h-75"placeholder="john" id="fname"required>
+                        </div>
+                        <div class="col-12 col-md col-lg">
+                            <label for="lname">Last Name <span>*</span></label>
+                            <input type="name" class="form-control border-dark-subtle rounded-4 h-75"placeholder="doe" id="lname"required>
+                        </div>
+                    </div>
+
+
+                    <div class="row3 d-flex gap-3   flex-wrap my-4 ">
+                        
+                            <div class="col-12 col-md-6">
+                                <label for="email">Email Address <span>*</span></label>
+                                <input type="email"pattern="[^ @]*@[^ @]*" placeholder="mail@sample.com" name="email" class="form-control border-dark-subtle rounded-4 h-75 "data-validation-required-message="Please enter your email" id="email" required>
+                                  
+                            </div>
+                        
+                        
+                            <div class="col-12 col-md">
+                                <label for="number">Mobile Number <span>*</span></label>
+                                <input type="number"pattern="min-10" class="form-control border-dark-subtle rounded-4 h-75" id="number"  placeholder="enter mobile number" required >
+                            </div>
+                        
+                    </div>
+
+                    <div class="row4 d-flex gap-3 flex-wrap my-4">
+                        <div class="col-12 col-md-6">
+                            <label for="date">Date of Birth <span>*</span></label>
+                            <input type="date" class="form-control border-dark-subtle rounded-4 h-75 " placeholder="enter date of birth" id="date"required>
+                        </div>
+
+                        <div class="col col-md gap-4 align-content-center mx-3">
+                            <label for="Gender">Gender <span>*</span></label><br>
+                            <div class="d-flex gap-2">
+                                <input type="radio" id="male" name="fav_language" value="male" required>
+                                <label for="male" >Male</label>  
+                                <input type="radio" id="female" name="fav_language" value="female"required>
+                                <label for="female">Female</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row5 my-4 ">
+                        <div class="col ">
+                            <label for="add">Address <span>*</span></label>
+                            <input type="text" class="form-control border-dark-subtle rounded-4 p-2 "placeholder="enter address" id="add"required>
+                        </div>
+                    </div>
+
+                    <div class="row6n7 d-flex flex-wrap gap-4 my-4">
+                        <div class="col-12 col-md-6 col-lg-6 ">
+                            <label for="place">Country <span>*</span></label>
+                            <select type="text" class="selectpicker form-select  border-dark-subtle rounded-4 h-75" id="place"required>
+                            
+                                <option selected>select country</option>
+                                <option value="1">India</option>
+                                <option value="2">Example</option>
+                            </select> 
+                        </div>
+                        <div class="col col-md col-lg">
+                            <label for="state">State <span>*</span></label>
+                            <select type="text" class=" form-select border-dark-subtle rounded-4 h-75"id="state"required>
+                            <option selected>select state</option>
+                                <option value="1">Kerala</option>
+                                <option value="1">Tamilnadu</option>
+                                <option value="2">Example</option>
+                            </select> 
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-6">
+                            <label for="place">City <span>*</span></label>
+                            <input type="text" class="form-control border-dark-subtle rounded-4 h-75"placeholder="enter city" id="place"required>
+                        </div>
+                        <div class="col col-md col-lg">
+                            <label for="pin">Pin/Zip <span>*</span></label>
+                            <input type="text" class="form-control border-dark-subtle rounded-4 h-75"placeholder="enter pin/zip" id="pin"required>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </div>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <div class=" col-md-12 col-lg-12 col-xl-6  ">
+                    <div class="container 
+                                advance
+                                rounded-4 
+                                p-4
+                                bg-white">
+                        <h2 class="fs-5 ">Advanced Details</h2>
+                        <div class="col-12 bg-warning-subtle p-3 rounded-4 my-4 border border-warning-subtle ">
+                            <p class="warning_msg text-wrap fw-semibold fs-5">Sample warning messages - alert</p>
+                            <p class="warning_msg text-wrap">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed fermentum felis. Aliquam erat volutpat. Donec faucibus mauris vel nibh sodales feugiat. Donec suscipit felis vitae orci porttitor congue.</p>
+                        </div>
+                        <div class="row12n13 d-flex flex-wrap gap-4 ">
+                            <div class="col-12 col-md-6 col-lg-6  ">
+                                <label for="height">Height <span>*</span></label><br>
+                                <div class="align-items-center d-flex gap-2">
+                                    <input class="w-75" type="range" value="24" min="1" max="200" oninput="this.nextElementSibling.value = this.value+' Cm'"required>
+                                    <output class="btn border-dark-subtle rounded-4  ">24 Cm</output>
+                                </div>
+                            </div>
+                            <div class="col col-md col-lg ">
+                                <label for="weight">Weight <span>*</span></label><br>
+                                <div class="align-items-center d-flex gap-2">
+                                    <input class="w-75" type="range" value="24" min="1" max="150" oninput="this.nextElementSibling.value = this.value + ' Kg' "required>
+                                    <output class="btn border-dark-subtle rounded-4 " >24 Kg</output>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-5 col-lg-5 ">
+                                <label for="add">Choose Color <span>*</span></label>
+                                <input type="color" class="form-control form-control-color border-dark-subtle p-1 w-100 rounded-4 p-2 "value="#ffe100" id="add"required>
+                            </div>
+                            <div class="col col-md col-lg ">
+                                <label for="temp">Choose Templates <span>*</span></label><br>
+                                <div class="d-flex gap-2 align-items-center">
+                                    <input class="form-check-input border-dark-subtle" type="checkbox" value="" id="flexCheckChecked" >
+                                    <label class="form-check-label" for="flexCheckChecked">Template 1</label>
+                                    <input class="form-check-input border-dark-subtle" type="checkbox" value="" id="flexCheckChecked" >
+                                    <label class="form-check-label" for="flexCheckChecked">Template 2</label>
+                                    <input class="form-check-input border-dark-subtle" type="checkbox" value="" id="flexCheckChecked" >
+                                    <label class="form-check-label" for="flexCheckChecked">Template 3</label>
+                                </div>
+                            </div>
+                            
+
+                            <div class="col-12">
+                                <label for="qualifications">Qualifications </label>
+                                <input type="text" class="form-control border-dark-subtle rounded-4 h-75"placeholder="enter qualifications" id="qualifications">
+                            </div>
+                            <div class="col-12">
+                                <label for="about">About Yourself <span>*</span></label>
+                                <textarea class="form-control border-dark-subtle rounded-4  "rows="7"placeholder="enter here..." aria-label="With textarea"required></textarea>
+                            </div>
+                            <input type="checkbox" class="form-check-input border-dark-subtle" id="exampleCheck1"required>
+                            <label class="form-check-label" for="exampleCheck1">I Accept Terms & Conditions</label>
+                        </div>
+                    
+                    </div>
+                </div>
+
+                <div class="footer">
+                    <div class="col-12">
+                        <div class="form-control rounded-4 p-4 d-flex justify-content-end">
+                            <button type="reset" class="btn ">Cancel</button>
+                            <input type="submit"value="Save Changes" class="btn btn-primary"required >
+                        </div> 
+                    </div>
+                </div>
+
+
+            </div>
+
+
+
+            
+        </div>
+    </div>
+    </form>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="/js/bootstrap.js"></script>
+</body>
+</html>
